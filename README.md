@@ -33,22 +33,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+     How I would descibe semantic HTML to the next group of students, is simply say a 
+     descriptive element that clearly describes its meaning both to the browser and the developer.  
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    The differences between the two is display: block are going to take up 100% width of the page,
+    whereas display: in line is inly going to take as muchas its content and its going to be side-by-side. 
 
 3. What are the 4 areas of the box model?
+    Margin, Border, Padding, and Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    THis works on the cross axis.
 
 5. Explain why git is valuable to a team of developers.
+    Because it helps developers keep track of different version of code.
+    Git makes it easy to keep track of changes and different developers can easily collaborate on projects.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
