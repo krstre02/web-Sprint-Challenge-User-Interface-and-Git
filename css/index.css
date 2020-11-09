@@ -79,7 +79,23 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+ nav a {
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+.top-content img {
+    margin: 10px;
+    padding: 5px;
+}
+
+.top-content .text-container p {
+    display: flex;
+    flex-wrap: row;   
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -104,7 +120,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:  black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
